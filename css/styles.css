@@ -1,8 +1,6 @@
 body{
     margin-top: 24px;
-   margin-right: 148px;
-   margin-bottom: 16px;
-   margin-left: 148px;
+   
    
 }
 
@@ -23,7 +21,10 @@ img{
     display: flex;
     flex-wrap: wrap;
    justify-content: center;
-   gap: 24px;}
+   gap: 24px;
+   margin-right: 148px;
+   margin-bottom: 16px;
+   margin-left: 148px;}
 
 .gallery img{
     width: calc((1128px - 48px)/3);
